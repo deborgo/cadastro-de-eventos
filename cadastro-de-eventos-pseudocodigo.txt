@@ -1,0 +1,41 @@
+cadastro de eventos(pseudocódigo)
+
+1. ALGARÍTIMO "cadastro-de-evento"
+2. VAR hoje
+3. VAR idade
+4. idade >18
+5. INÍCIO
+6. ESCREVER ("Que dia é hoje")
+7. LER (dd/mm/aaaa)
+8. ESCREVER (" Qual sua data de nascimento")
+9. LER (dd/mm/aaaa)
+10. idade >=18
+11. ESCREVER (idade)
+12. SE IDADE <18 então
+13. ESCREVER ("MENOR DE IDADE.CADASTRO NÃO PERMITIDO")
+14. LOOPING PARA ("Qual sua data de nascimento")
+15. SE IDADE >=18
+16. ESCREVER ("Qual a data do evento?")
+17. LER (data do evento)
+18. data evento >hoje
+19. ESCREVER (data do evento)
+20. SE DATA DO EVENTO <=HOJE
+21. ESCREVER ("Data não aceita. Escolha outro Evento/Data !")
+22. LOOPING PARA ("Qual a data do evento")
+23. SE DATA >HOJE
+24. ESCREVER ("Qual o nome do palestrante?")
+25. LER (palestrante a)
+26. ESCREVER ("Qual o nome do participante")
+27. LER (palestrante b)
+28. ESCREVER ("Qual o nome do participante")
+29. SE nº participantes do palestrante a >=100
+30. ESCREVER ("Limite de participantes excedido, escolha outro palestrante.")
+31. LOOPING PARA ("Qual o nome do palestrante")
+32. SE nº participantes do palestrante a <100
+33. ESCREVER ("Boa Palestra")
+34. SE nº participantes do palestrante b >=100
+35. ESCREVER ("Limite de participantes excedido, escolha outro palestrante.")
+36. LOOPING PARA ("Qual o nome do palestrante")
+37. SE nº participantes do palestrante b <100
+38. ESCREVER ("Boa Palestra")
+39. (verificar qual é o comando para iniciar o looping desde o início)
